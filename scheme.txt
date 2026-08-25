@@ -1,0 +1,14 @@
+notebook-genai-agent/
+│── src/
+│   │── __init__.py
+│   │── models.py          # Definición de clases Pydantic (CellStructure, NotebookFullResponse)
+│   │── utils.py           # Funciones auxiliares (extraer_contenido_notebook, estimar_tokens_notebook, cambiar_modo)
+│   │── processor.py       # Lógica principal (procesar_notebook)
+│   │── interface.py       # Configuración de la interfaz Gradio
+│── tests/
+│   │── test_utils.py      # Pruebas unitarias para funciones auxiliares
+│   │── test_processor.py  # Pruebas para la función principal
+│── requirements.txt       # Dependencias del proyecto
+│── README.md              # Documentación
+│── .gitignore             # Ignorar venv, __pycache__, etc.
+│── main.py                # Punto de entrada (ejecuta la interfaz)
