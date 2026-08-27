@@ -1,0 +1,18 @@
+# Librerías principales
+gradio>=4.0.0
+nbformat>=5.9.0
+pydantic>=2.0.0
+
+# Cliente de Google GenAI
+google-genai>=1.0.0
+
+# Dependencias científicas comunes (usadas en notebooks generados)
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyterlab>=4.0.0
+mystmd>=1.0.0
+
+# Utilidades generales
+requests>=2.31.0

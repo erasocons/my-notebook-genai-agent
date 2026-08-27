@@ -23,4 +23,4 @@ Un agente interactivo para **crear y editar Jupyter Notebooks automáticamente**
 Instalación rápida:
 
 ```bash
-pip install nbformat pydantic google-genai gradio
+pip install -r requirements.txt

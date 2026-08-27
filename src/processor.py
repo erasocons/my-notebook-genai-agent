@@ -4,8 +4,8 @@ import nbformat
 from nbformat.v4 import new_code_cell, new_markdown_cell, new_notebook
 from google import genai
 from google.genai import types
-from models import NotebookFullResponse
-from utils import extraer_contenido_notebook
+from .models import NotebookFullResponse
+from .utils import extraer_contenido_notebook
 
 def procesar_notebook(modo, file_obj, user_instructions, api_key):
     if modo == "Editar Notebook existente" and file_obj is None:

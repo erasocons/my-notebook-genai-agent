@@ -1,6 +1,6 @@
 import gradio as gr
-from utils import estimar_tokens_notebook, cambiar_modo
-from processor import procesar_notebook
+from .utils import estimar_tokens_notebook, cambiar_modo
+from .processor import procesar_notebook
 
 with gr.Blocks(title="Agente Generador de Notebooks") as demo:
     gr.Markdown("# 🤖 Agente de Automatización para Jupyter Notebooks")
