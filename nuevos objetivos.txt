@@ -1,0 +1,2 @@
+Crea y mejora notebooks con ayuda de inteligencia artificial
+Esta herramienta convierte tus instrucciones en notebooks de Jupyter con contenido Markdown y código Python. Puedes empezar desde una idea o cargar una notebook para modificarla.
